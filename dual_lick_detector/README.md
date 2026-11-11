@@ -36,6 +36,14 @@ Connect one or two lick spouts (22 gauge stainless-steel tubing is common) via B
 connectors soldered to the PCB, or by soldering hobby-servo wire in place of the BNC
 connector.
 
+## Housing for dual-lick detector
+Housing can be 3D printed on most fused deposition modeling (i.e., melt plastic filament layer by layer). We use the Prusa MK3.
+
+<i>Picture of the dual-lick detector housing</i>
+<p align="center">
+  <img src="https://github.com/spout-task/hardware/blob/b612d3ae3cba6797bc694bb007dc3021361323ca/dual_lick_detector/3d_printed_housing/pictures/box_dual_lick_detector.png" alt="Dual-lick detector housing">
+</p>
+
 ## Files
 - `PCB/Alpha1d/` — current revision: board, schematic, Gerber zip, centroid, BOM, renders.
 - `PCB/Alpha1b/` — earlier revision (board + schematic).
