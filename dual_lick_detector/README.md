@@ -45,6 +45,7 @@ Housing can be 3D printed on most fused deposition modeling (i.e., melt plastic 
 </p>
 
 ## Files
+- `3d_printed_housing/` - housing of the dual-lick detector
 - `PCB/Alpha1d/` — current revision: board, schematic, Gerber zip, centroid, BOM, renders.
 - `PCB/Alpha1b/` — earlier revision (board + schematic).
 - `Photos/` — board photographs.
