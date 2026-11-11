@@ -1,8 +1,9 @@
 # Dual-lick detector (2-channel)
 
-> **Attribution.** This is a third-party design by the **Harvard Medical School (HMS)
-> Research Instrumentation Core**, redistributed here with permission as part of the SPOUT
-> hardware set. It is **not** covered by SPOUT's CERN-OHL-S license and retains its own
+> **Attribution.** The **Harvard Medical School (HMS)
+> Research Instrumentation Core** actively develops the dual lick detector.
+> The version in this repo is actively used in lab and was used in the manuscript.
+> It is **not** covered by SPOUT's CERN-OHL-S license and retains its own
 > upstream license and terms.
 >
 > **Upstream repository (check here for newer board revisions):**
