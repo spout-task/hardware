@@ -23,8 +23,8 @@ All design files are in [`design/files`](design/files/) and renders in [`design/
 
 | Part | Files | What it is | How we made it |
 |---|---|---|---|
-| Bottom mount spout holder | [`water_spout_bottom_mount.stl`](design/files/water_spout_bottom_mount.stl) | Holder mounted from below; used on SPOUT1 and SPOUT2 rigs | 3D printed, PLA |
-| Side mount spout holder | [`water_spout_side_mount.stl`](design/files/water_spout_side_mount.stl) | Holder mounted from the side, for setups with little space | 3D printed, PLA |
+| Bottom mount spout holder | [`.stl`](design/files/water_spout_bottom_mount.stl), [`.step`](design/files/water_spout_bottom_mount.step) | Holder mounted from below; used on SPOUT1 and SPOUT2 rigs | 3D printed, PLA |
+| Side mount spout holder | [`.stl`](design/files/water_spout_side_mount.stl), [`.step`](design/files/water_spout_side_mount.step) | Holder mounted from the side, for setups with little space | 3D printed, PLA |
 | Dual solenoid holder | [`.dxf`](design/files/dual_solenoid_holder.dxf), [`.stl`](design/files/dual_solenoid_holder.stl), [`.step`](design/files/dual_solenoid_holder.step) | Plate that holds the two solenoid valves | Laser cut, 1/8 inch acrylic |
 
 The solenoid holder can also be 3D printed from the STL file. The STEP file is for editing in CAD.

@@ -4,8 +4,8 @@ The heart of a SPOUT rig. This board carries the Teensy 4.1 that runs the SPOUT 
 drives the water solenoids, and brings every input and output to a BNC connector or a header.
 
 <p align="center">
-  <img src="PCB/pictures/board_top.png" alt="Teensy breakout board, top" width="45%">
-  <img src="PCB/pictures/board_bottom.png" alt="Teensy breakout board, bottom" width="45%">
+  <img src="PCB/pictures/Teensy_breakout_board_1.jpg" alt="Assembled Teensy breakout board" width="45%">
+  <img src="PCB/pictures/Teensy_breakout_board_schematic_1.png" alt="Teensy breakout board render, top" width="45%">
 </p>
 
 ## At a glance
@@ -13,7 +13,7 @@ drives the water solenoids, and brings every input and output to a BNC connector
 | | |
 |---|---|
 | Function | Teensy 4.1 carrier with solenoid drivers and BNC inputs and outputs |
-| Design | Pavel Gorelik, HMS Research Instrumentation Core, revision Alpha1b (KiCad 8) |
+| Design | Pavel Gorelik, HMS Research Instrumentation Core, revision Alpha1b (KiCad 10) |
 | Fabrication | PCB, Teensy in a socket, 3D printed housing |
 | Approximate cost | 100 USD for the assembled board |
 | Used by | SPOUT1 and SPOUT2 |
@@ -22,11 +22,23 @@ drives the water solenoids, and brings every input and output to a BNC connector
 
 | File | What it is |
 |---|---|
-| [`PCB/files/Schematic_TeensyBreakout_Alpha1b.pdf`](PCB/files/Schematic_TeensyBreakout_Alpha1b.pdf) | Schematic |
-| `PCB/files/` KiCad project and Gerber files | To be added |
-| [`design/files/box_teensy_breakoutboard.stl`](design/files/box_teensy_breakoutboard.stl) | Housing, 152 x 106 x 20 mm. 3D printed, PLA |
-| [`PCB/pictures`](PCB/pictures/) | Renders of the board, including 3D views (`TeensyBreakout_Alpha1b_PCBViewFront.png`, `...Back.png`) |
-| [`design/pictures`](design/pictures/) | Render of the housing |
+| [`PCB/files/Teensy_breakout_board.kicad_sch`](PCB/files/Teensy_breakout_board.kicad_sch) | Schematic (KiCad 10) |
+| [`PCB/files/Teensy_breakout_board.kicad_pcb`](PCB/files/Teensy_breakout_board.kicad_pcb) | Board layout (KiCad 10) |
+| [`PCB/pictures`](PCB/pictures/) | Photos and board renders, see below |
+
+| Part | Files | What it is | How we made it |
+|---|---|---|---|
+| Housing | [`.stl`](design/files/box_teensy_breakoutboard.stl), [`.step`](design/files/box_teensy_breakoutboard.step) | Housing, 152 x 106 x 20 mm | 3D printed, PLA |
+
+### Pictures
+
+| Picture | What it shows |
+|---|---|
+| [`Teensy_breakout_board_1.jpg`](PCB/pictures/Teensy_breakout_board_1.jpg) | Assembled board with the Teensy 4.1 and eight BNC connectors |
+| [`Teensy_breakout_board_2.jpg`](PCB/pictures/Teensy_breakout_board_2.jpg) | Bare board, top |
+| [`Teensy_breakout_board_3.jpg`](PCB/pictures/Teensy_breakout_board_3.jpg) | Bare board, bottom |
+| [`Teensy_breakout_board_schematic_1.png`](PCB/pictures/Teensy_breakout_board_schematic_1.png) | Board render from KiCad, top |
+| [`Teensy_breakout_board_schematic_2.png`](PCB/pictures/Teensy_breakout_board_schematic_2.png) | Board render from KiCad, bottom |
 
 ## Bill of materials
 
@@ -40,9 +52,15 @@ drives the water solenoids, and brings every input and output to a BNC connector
 
 Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
+## Ordering the PCB
+
+The board is designed in KiCad 10. Open the `.kicad_pcb` file in KiCad (free, [kicad.org](https://www.kicad.org)) and export
+what your fabricator needs: Gerber and drill files (File, Fabrication Outputs), and for commercial assembly the
+component list and the position file from the same menu. Default manufacturing settings are fine.
+
 ## Fabrication
 
-1. **PCB.** Order the board from any PCB fabricator with the Gerber files (to be added). Default manufacturing settings are fine.
+1. **PCB.** Order the board as described above.
 2. **Teensy.** Solder female headers on the board and male headers on the Teensy 4.1, so the Teensy can be swapped.
 3. **Housing.** Print `box_teensy_breakoutboard.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
 

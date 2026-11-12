@@ -5,8 +5,8 @@ spout and the grounded mouse; the detector turns that into a clean digital pulse
 sub millisecond precision.
 
 <p align="center">
-  <img src="PCB/pictures/dual_lick_detector1.jpg" alt="Dual lick detector" width="40%">
-  <img src="PCB/pictures/Lick-Detector-PCB-Top.png" alt="Dual lick detector PCB, top" width="50%">
+  <img src="PCB/pictures/dual_lick_detector_1.jpg" alt="Assembled dual lick detector" width="45%">
+  <img src="PCB/pictures/dual_lick_detector_schematic_2.png" alt="Dual lick detector board render, top" width="45%">
 </p>
 
 ## At a glance
@@ -14,7 +14,7 @@ sub millisecond precision.
 | | |
 |---|---|
 | Function | Detects licks on one or two spouts |
-| Design | HMS Research Instrumentation Core, revision Alpha1d (EAGLE) |
+| Design | Pavel Gorelik, HMS Research Instrumentation Core, revision Alpha1e (KiCad 10) |
 | Fabrication | PCB with commercial assembly, 3D printed housing |
 | Approximate cost | 100 USD for the assembled board |
 | Used by | SPOUT1 (one channel) and SPOUT2 (two channels) |
@@ -41,21 +41,33 @@ signal can run over BNC cables. In the SPOUT configuration the output is active 
 
 | File | What it is |
 |---|---|
-| [`PCB/files/Alpha1d/ComparatorLickDet_Alpha1d.zip`](PCB/files/Alpha1d/) | Gerber files, upload to a PCB fabricator |
-| [`PCB/files/Alpha1d/ComparatorLickDet_Alpha1d.sch`](PCB/files/Alpha1d/), `.brd` | Schematic and board (EAGLE) |
-| [`PCB/files/Alpha1d/ComparatorLickDetCentroid_Alpha1d.txt`](PCB/files/Alpha1d/) | Component positions for assembly |
-| [`PCB/files/Alpha1d/HMS-2-Ch-Lick-Detector-Alpha1d_BOM_PCBWay.xlsx`](PCB/files/Alpha1d/) | Component list for assembly |
-| [`ComparatorLickDet_BOM.pdf`](ComparatorLickDet_BOM.pdf) | Component list (readable version) |
-| [`PCB/files`](PCB/files/) `ComparatorLickDet_Alpha1b.sch`, `.brd` | Earlier revision Alpha1b |
-| [`design/files/box_dual_lick_detector.stl`](design/files/box_dual_lick_detector.stl) | Housing, 152 x 89 x 20 mm, with mounting ears. 3D printed, PLA |
-| [`design/pictures`](design/pictures/) | Render of the housing |
-| [`PCB/pictures`](PCB/pictures/) | Photos and board renders |
+| [`PCB/files/dual_lick_detector_.kicad_sch`](PCB/files/dual_lick_detector_.kicad_sch) | Schematic (KiCad 10) |
+| [`PCB/files/dual_lick_detector_.kicad_pcb`](PCB/files/dual_lick_detector_.kicad_pcb) | Board layout (KiCad 10) |
+| [`ComparatorLickDet_BOM.pdf`](ComparatorLickDet_BOM.pdf) | Component list, readable version (made for revision Alpha1d) |
+| [`PCB/pictures`](PCB/pictures/) | Photos and board renders, see below |
+
+| Part | Files | What it is | How we made it |
+|---|---|---|---|
+| Housing | [`.stl`](design/files/box_dual_lick_detector.stl), [`.step`](design/files/box_dual_lick_detector.step) | Housing, 152 x 89 x 20 mm, with mounting ears | 3D printed, PLA |
+
+The SPOUT paper used revision Alpha1d (EAGLE). Alpha1e is the KiCad version of that design.
+Newer revisions are developed in the [HMS RIC repository](https://github.com/HMS-RIC/2-Channel-Lick-Detector).
+
+### Pictures
+
+| Picture | What it shows |
+|---|---|
+| [`dual_lick_detector_1.jpg`](PCB/pictures/dual_lick_detector_1.jpg) | Assembled board with BNC connectors, potentiometers and battery holder |
+| [`dual_lick_detector_2.jpg`](PCB/pictures/dual_lick_detector_2.jpg) | Bare board, top |
+| [`dual_lick_detector_3.jpg`](PCB/pictures/dual_lick_detector_3.jpg) | Bare board, bottom |
+| [`dual_lick_detector_schematic_1.png`](PCB/pictures/dual_lick_detector_schematic_1.png) | Board render from KiCad, bottom |
+| [`dual_lick_detector_schematic_2.png`](PCB/pictures/dual_lick_detector_schematic_2.png) | Board render from KiCad, top |
 
 ## Bill of materials
 
 | Qty | Part | Supplier | Part number | Price (USD) |
 |---|---|---|---|---|
-| 1 | Assembled lick detector board | PCBWay (or any PCB assembler) | Alpha1d files | 100 |
+| 1 | Assembled lick detector board | Any PCB assembler (we used PCBWay) | KiCad files | 100 |
 | 1 | 3D printed housing | | | |
 | 1 | 9 V battery | | | |
 | 1 | Power adapter 3 V (output stage) | NC | BY0301&BK | 5.57 |
@@ -64,11 +76,16 @@ signal can run over BNC cables. In the SPOUT configuration the output is active 
 
 Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
+## Ordering the PCB
+
+The board is designed in KiCad 10. Open the `.kicad_pcb` file in KiCad (free, [kicad.org](https://www.kicad.org)) and export
+what your fabricator needs: Gerber and drill files (File, Fabrication Outputs), and for commercial assembly the
+component list and the position file from the same menu. Default manufacturing settings are fine.
+
 ## Fabrication
 
-1. Upload `ComparatorLickDet_Alpha1d.zip` to a PCB fabricator. The board uses no special features, so default settings are fine.
-2. For commercial assembly, also upload the centroid file and the PCBWay BOM. The SPOUT boards were made and assembled by PCBWay.
-3. Print `box_dual_lick_detector.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
+1. Order the assembled board as described above. The SPOUT boards were made and assembled by PCBWay.
+2. Print `box_dual_lick_detector.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
 
 ## Assembly
 

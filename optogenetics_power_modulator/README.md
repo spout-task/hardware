@@ -32,7 +32,7 @@ turns on, or use continuous modulation (see below). The 8 bit PWM gives 256 powe
 |---|---|
 | [`circuit/files/opto_power_mod.png`](circuit/files/opto_power_mod.png) | Circuit diagram |
 | [`circuit/pictures`](circuit/pictures/) | Photos of the built circuit |
-| [`design/files/housing_opto_power_mod.stl`](design/files/housing_opto_power_mod.stl) | Housing, 50 x 54 x 22 mm. 3D printed, PLA |
+| [`housing_opto_power_mod.stl`](design/files/housing_opto_power_mod.stl), [`.step`](design/files/housing_opto_power_mod.step) | Housing, 50 x 54 x 22 mm. 3D printed, PLA |
 | [`design/pictures`](design/pictures/) | Render of the housing |
 
 ## Bill of materials

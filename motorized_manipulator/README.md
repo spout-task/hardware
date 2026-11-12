@@ -28,12 +28,12 @@ All design files are in [`design/files`](design/files/) and renders in [`design/
 
 | Part | Files | What it is | How we made it |
 |---|---|---|---|
-| Adapter to breadboard | [`micromanipulator_to_breadboard.stl`](design/files/micromanipulator_to_breadboard.stl) | Plate (4 x 2 inch) that mounts the bottom stage on the breadboard | 3D printed, PLA |
-| Adapter to 1/2 inch post | [`micromanipulator_stage2postHalfInch.stl`](design/files/micromanipulator_stage2postHalfInch.stl) | Adapter from the top stage to a 1/2 inch post | 3D printed, PLA |
-| Adapter to 1/4 inch post | [`micromanipulator_stage2postQuarterInch.stl`](design/files/micromanipulator_stage2postQuarterInch.stl) | Adapter from the top stage to a 1/4 inch post | 3D printed, PLA |
-| Drilling template 5 cm | [`.dxf`](design/files/template_linear_track_holes-5cm.dxf), [`.stl`](design/files/template_linear_track_holes-5cm.stl) | Template (1 mm) to mount one stage on the carriage of another | Laser cut, 1 mm acrylic |
-| Drilling template 10 cm | [`.dxf`](design/files/template_linear_track_holes-10cm.dxf), [`.stl`](design/files/template_linear_track_holes-10cm.stl) | Same, for the 10 cm position | Laser cut, 1 mm acrylic |
-| Drilling template edge | [`.dxf`](design/files/template_linear_track_holes-edge.dxf), [`.stl`](design/files/template_linear_track_holes-edge.stl) | Template (30 x 28 x 1 mm) for the end plate of a stage | Laser cut, 1 mm acrylic |
+| Adapter to breadboard | [`.stl`](design/files/micromanipulator_to_breadboard.stl), [`.step`](design/files/micromanipulator_to_breadboard.step) | Plate (4 x 2 inch) that mounts the bottom stage on the breadboard | 3D printed, PLA |
+| Adapter to 1/2 inch post | [`.stl`](design/files/micromanipulator_stage2postHalfInch.stl), [`.step`](design/files/micromanipulator_stage2postHalfInch.step) | Adapter from the top stage to a 1/2 inch post | 3D printed, PLA |
+| Adapter to 1/4 inch post | [`.stl`](design/files/micromanipulator_stage2postQuarterInch.stl), [`.step`](design/files/micromanipulator_stage2postQuarterInch.step) | Adapter from the top stage to a 1/4 inch post | 3D printed, PLA |
+| Drilling template 5 cm | [`.dxf`](design/files/template_linear_track_holes-5cm.dxf), [`.stl`](design/files/template_linear_track_holes-5cm.stl), [`.step`](design/files/template_linear_track_holes-5cm.step) | Template (1 mm) to mount one stage on the carriage of another | Laser cut, 1 mm acrylic |
+| Drilling template 10 cm | [`.dxf`](design/files/template_linear_track_holes-10cm.dxf), [`.stl`](design/files/template_linear_track_holes-10cm.stl), [`.step`](design/files/template_linear_track_holes-10cm.step) | Same, for the 10 cm position | Laser cut, 1 mm acrylic |
+| Drilling template edge | [`.dxf`](design/files/template_linear_track_holes-edge.dxf), [`.stl`](design/files/template_linear_track_holes-edge.stl), [`.step`](design/files/template_linear_track_holes-edge.step) | Template (30 x 28 x 1 mm) for the end plate of a stage | Laser cut, 1 mm acrylic |
 | Driver box | [`.pdf`](design/files/box_mounting_steppermotor_drivers.pdf), [`.ai`](design/files/box_mounting_steppermotor_drivers.ai) | Box for the three drivers | Laser cut, 1/8 inch acrylic |
 
 3D printed parts: Prusa MK3, PLA, standard settings. The templates can also be 3D printed from the STL files.

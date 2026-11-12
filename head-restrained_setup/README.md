@@ -37,14 +37,14 @@ All design files are in [`design/files`](design/files/) and renders in [`design/
 
 | Part | Files | What it is | How we made it |
 |---|---|---|---|
-| Behavior headplate | [`.dxf`](design/files/headplate_behavior.dxf), [`.stl`](design/files/headplate_behavior.stl) | 27.5 x 10.4 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
-| Imaging headplate | [`.dxf`](design/files/headplate_2pimaging.dxf), [`.stl`](design/files/headplate_2pimaging.stl) | 27.5 x 23.8 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
-| Imaging cover | [`.dxf`](design/files/headplate_2pimaging_cover.dxf), [`.stl`](design/files/headplate_2pimaging_cover.stl) | 17.6 x 15.5 mm | Laser cut, titanium, SendCutSend |
-| Behavior holders, left and right | [`left.stl`](design/files/headplate_behavior_holder_left.stl), [`right.stl`](design/files/headplate_behavior_holder_right.stl) | Clamp the behavior headplate | Machined aluminium (can also be 3D printed) |
-| Behavior ramp, right | [`.stl`](design/files/headplate_behavior_15degreesramp_right.stl) | 15 degree ramp | Machined aluminium (can also be 3D printed) |
-| Imaging holder | [`.stl`](design/files/headplate_2pimaging_holder_big.stl) | U shaped holder | Machined aluminium (can also be 3D printed) |
-| Imaging ramps, left and right | [`left.stl`](design/files/headplate_2pimaging_15degreesramp_left.stl), [`right.stl`](design/files/headplate_2pimaging_15degreesramp_right.stl) | 15 degree ramps | Machined aluminium (can also be 3D printed) |
-| Imaging cone | [`.stl`](design/files/headplate_2pimaging_cone.stl) | Water cone for the objective | Machined aluminium 6061, eMachineShop |
+| Behavior headplate | [`.dxf`](design/files/headplate_behavior.dxf), [`.stl`](design/files/headplate_behavior.stl), [`.step`](design/files/headplate_behavior.step) | 27.5 x 10.4 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
+| Imaging headplate | [`.dxf`](design/files/headplate_2pimaging.dxf), [`.stl`](design/files/headplate_2pimaging.stl), [`.step`](design/files/headplate_2pimaging.step) | 27.5 x 23.8 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
+| Imaging cover | [`.dxf`](design/files/headplate_2pimaging_cover.dxf), [`.stl`](design/files/headplate_2pimaging_cover.stl), [`.step`](design/files/headplate_2pimaging_cover.step) | 17.6 x 15.5 mm | Laser cut, titanium, SendCutSend |
+| Behavior holders, left and right | [`left.stl`](design/files/headplate_behavior_holder_left.stl), [`left.step`](design/files/headplate_behavior_holder_left.step), [`right.stl`](design/files/headplate_behavior_holder_right.stl), [`right.step`](design/files/headplate_behavior_holder_right.step) | Clamp the behavior headplate | Machined aluminium (can also be 3D printed) |
+| Behavior ramp, right | [`.stl`](design/files/headplate_behavior_15degreesramp_right.stl), [`.step`](design/files/headplate_behavior_15degreesramp_right.step) | 15 degree ramp | Machined aluminium (can also be 3D printed) |
+| Imaging holder | [`.stl`](design/files/headplate_2pimaging_holder_big.stl), [`.step`](design/files/headplate_2pimaging_holder_big.step) | U shaped holder | Machined aluminium (can also be 3D printed) |
+| Imaging ramps, left and right | [`left.stl`](design/files/headplate_2pimaging_15degreesramp_left.stl), [`left.step`](design/files/headplate_2pimaging_15degreesramp_left.step), [`right.stl`](design/files/headplate_2pimaging_15degreesramp_right.stl), [`right.step`](design/files/headplate_2pimaging_15degreesramp_right.step) | 15 degree ramps | Machined aluminium (can also be 3D printed) |
+| Imaging cone | [`.stl`](design/files/headplate_2pimaging_cone.stl), [`.step`](design/files/headplate_2pimaging_cone.step) | Water cone for the objective | Machined aluminium 6061, eMachineShop |
 
 DXF files are in mm.
 
