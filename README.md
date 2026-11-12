@@ -22,7 +22,7 @@ The full bill of materials is in [`SPOUT_BOM.xlsx`](SPOUT_BOM.xlsx) and [`SPOUT_
 
 ## Build order for one rig
 
-1. **Base.** Mount the 12 x 18 inch breadboard on the table with two table clamps.
+1. **Base.** The 12 x 18 inch breadboard is the base of the rig.
 2. **Head fixation.** Build the head restrained setup on the round breadboard: magnetic base, post, clamp, aluminium tube and headplate holders.
 3. **Water delivery.** Reservoir syringes, 3 way valves, solenoids in the solenoid holder, Tygon tubing, and the spouts in the spout holder.
 4. **Spout positioning.** Stack the three linear stages with the printed adapters, mount the spout holder on a post on the top stage, and put the three drivers in the laser cut box.

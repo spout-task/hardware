@@ -35,7 +35,6 @@ Send the STEP or DXF file to a machine shop and ask for 1/4 20 tapped holes. The
 |---|---|---|---|---|
 | 1 | 12 x 18 inch plate, machined | Machine shop | | |
 | 1 | 6 inch round plate, machined | Machine shop | | |
-| 2 | Table clamp | Thorlabs | CL5 | 5.67 each |
 | 10 | 1/4 20 screws | Thorlabs | SH25S025 | 0.55 each |
 
 Commercial alternatives, if you prefer not to machine the plates:
@@ -49,8 +48,7 @@ Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
 ## Assembly
 
-1. Clamp the 12 x 18 inch breadboard to the table with the two table clamps.
-2. Screw the round breadboard on the rig breadboard and build the [head restrained setup](../head-restrained_setup/) on it.
+1. Screw the round breadboard on the rig breadboard and build the [head restrained setup](../head-restrained_setup/) on it.
 
 ## License
 **CERN-OHL-S-2.0** ([`LICENSE`](../LICENSE)).
