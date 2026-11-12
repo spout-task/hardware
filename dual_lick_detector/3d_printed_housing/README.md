@@ -1,10 +1,16 @@
-# Housing for dual-lick detector
+# Housing for the dual lick detector
 
-Housing can be 3D printed on most fused deposition modeling (i.e., melt plastic filament layer by layer). We use the Prusa MK3.
+Box that protects the lick detector board and mounts it on the breadboard.
 
-## Picture of the design
-
-<i>Figure - design housing dual-lick detector</i>
 <p align="center">
-  <img src="https://github.com/spout-task/hardware/blob/b612d3ae3cba6797bc694bb007dc3021361323ca/dual_lick_detector/3d_printed_housing/pictures/box_dual_lick_detector.png" alt="Dual-lick detector housing">
+  <img src="pictures/box_dual_lick_detector.png" alt="Dual lick detector housing" width="60%">
 </p>
+
+| File | What it is |
+|---|---|
+| [`files/box_dual_lick_detector.stl`](files/box_dual_lick_detector.stl) | Housing, 152 x 89 x 20 mm, with mounting ears |
+
+Print on any filament (FDM) 3D printer. We use a Prusa MK3 with PLA and standard settings.
+Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
+
+Back to the [dual lick detector](../README.md).
