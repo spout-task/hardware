@@ -5,8 +5,8 @@ rig, and a 6 inch round breadboard that carries the head restrained setup. Both 
 holes on a 1 inch grid, so standard optical posts and holders fit.
 
 <p align="center">
-  <img src="cnc/pictures/breadboard_12x18.png" alt="12 x 18 inch breadboard" width="50%">
-  <img src="cnc/pictures/breadboard_headplate.png" alt="Round breadboard" width="35%">
+  <img src="design/pictures/breadboard_12x18.png" alt="12 x 18 inch breadboard" width="50%">
+  <img src="design/pictures/breadboard_headplate.png" alt="Round breadboard" width="35%">
 </p>
 
 ## At a glance
@@ -14,26 +14,27 @@ holes on a 1 inch grid, so standard optical posts and holders fit.
 | | |
 |---|---|
 | Function | Rig base plate and base for the head fixation |
-| Fabrication | Machined from 1/2 inch aluminium plate and tapped 1/4 20 on a 1 inch grid |
+| Fabrication | Machined by a machine shop from 1/2 inch aluminium plate and tapped 1/4 20 on a 1 inch grid |
 | Alternative | Buy the Thorlabs equivalents (see below) |
 | Used by | SPOUT1 and SPOUT2 |
 
 ## Files
 
-| File | What it is |
-|---|---|
-| [`breadboard_12x18.step`](cnc/files/breadboard_12x18.step), [`.stl`](cnc/files/breadboard_12x18.stl) | 12 x 18 x 1/2 inch rig breadboard |
-| [`breadboard_headplate.step`](cnc/files/breadboard_headplate.step), [`.stl`](cnc/files/breadboard_headplate.stl) | 6 inch round x 1/2 inch breadboard for the head fixation |
-| [`cnc/pictures`](cnc/pictures/) | Renders |
+All design files are in [`design/files`](design/files/) and renders in [`design/pictures`](design/pictures/).
 
-The STEP files are in inch. Send the STEP file to a machine shop and ask for 1/4 20 tapped holes.
+| Part | Files | What it is | How we made it |
+|---|---|---|---|
+| Rig breadboard | [`.step`](design/files/breadboard_12x18.step), [`.dxf`](design/files/breadboard_12x18.dxf), [`.stl`](design/files/breadboard_12x18.stl) | 12 x 18 x 1/2 inch rig breadboard | Machine shop, 1/2 inch aluminium, holes tapped 1/4 20 |
+| Round breadboard | [`.step`](design/files/breadboard_headplate.step), [`.dxf`](design/files/breadboard_headplate.dxf), [`.stl`](design/files/breadboard_headplate.stl) | 6 inch round x 1/2 inch breadboard for the head fixation | Machine shop, 1/2 inch aluminium, holes tapped 1/4 20 |
+
+Send the STEP or DXF file to a machine shop and ask for 1/4 20 tapped holes. The STEP files are in inch; the DXF files are in mm.
 
 ## Bill of materials
 
 | Qty | Part | Supplier | Part number | Price (USD) |
 |---|---|---|---|---|
-| 1 | 12 x 18 inch plate, machined | Machine shop or in house | | |
-| 1 | 6 inch round plate, machined | Machine shop or in house | | |
+| 1 | 12 x 18 inch plate, machined | Machine shop | | |
+| 1 | 6 inch round plate, machined | Machine shop | | |
 | 2 | Table clamp | Thorlabs | CL5 | 5.67 each |
 | 10 | 1/4 20 screws | Thorlabs | SH25S025 | 0.55 each |
 

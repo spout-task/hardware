@@ -47,7 +47,8 @@ signal can run over BNC cables. In the SPOUT configuration the output is active 
 | [`PCB/files/Alpha1d/HMS-2-Ch-Lick-Detector-Alpha1d_BOM_PCBWay.xlsx`](PCB/files/Alpha1d/) | Component list for assembly |
 | [`ComparatorLickDet_BOM.pdf`](ComparatorLickDet_BOM.pdf) | Component list (readable version) |
 | [`PCB/files`](PCB/files/) `ComparatorLickDet_Alpha1b.sch`, `.brd` | Earlier revision Alpha1b |
-| [`3d_printed_housing`](3d_printed_housing/) | Housing |
+| [`design/files/box_dual_lick_detector.stl`](design/files/box_dual_lick_detector.stl) | Housing, 152 x 89 x 20 mm, with mounting ears. 3D printed, PLA |
+| [`design/pictures`](design/pictures/) | Render of the housing |
 | [`PCB/pictures`](PCB/pictures/) | Photos and board renders |
 
 ## Bill of materials
@@ -67,7 +68,7 @@ Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
 1. Upload `ComparatorLickDet_Alpha1d.zip` to a PCB fabricator. The board uses no special features, so default settings are fine.
 2. For commercial assembly, also upload the centroid file and the PCBWay BOM. The SPOUT boards were made and assembled by PCBWay.
-3. Print the housing (see [`3d_printed_housing`](3d_printed_housing/)).
+3. Print `box_dual_lick_detector.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
 
 ## Assembly
 

@@ -24,9 +24,9 @@ drives the water solenoids, and brings every input and output to a BNC connector
 |---|---|
 | [`PCB/files/Schematic_TeensyBreakout_Alpha1b.pdf`](PCB/files/Schematic_TeensyBreakout_Alpha1b.pdf) | Schematic |
 | `PCB/files/` KiCad project and Gerber files | To be added |
-| [`3d_printing/files/box_teensy_breakoutboard.stl`](3d_printing/files/box_teensy_breakoutboard.stl) | Housing, 152 x 106 x 20 mm |
+| [`design/files/box_teensy_breakoutboard.stl`](design/files/box_teensy_breakoutboard.stl) | Housing, 152 x 106 x 20 mm. 3D printed, PLA |
 | [`PCB/pictures`](PCB/pictures/) | Renders of the board, including 3D views (`TeensyBreakout_Alpha1b_PCBViewFront.png`, `...Back.png`) |
-| [`3d_printing/pictures`](3d_printing/pictures/) | Render of the housing |
+| [`design/pictures`](design/pictures/) | Render of the housing |
 
 ## Bill of materials
 

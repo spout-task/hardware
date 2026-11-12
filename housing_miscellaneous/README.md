@@ -3,19 +3,20 @@
 3D printed boxes for the smaller electronics of a SPOUT rig.
 
 <p align="center">
-  <img src="3d_printing/pictures/box_drok_amplifier.png" alt="Amplifier housing" width="45%">
-  <img src="3d_printing/pictures/box_power_small_sparkfun_breadboard.png" alt="Power box" width="40%">
+  <img src="design/pictures/box_drok_amplifier.png" alt="Amplifier housing" width="45%">
+  <img src="design/pictures/box_power_small_sparkfun_breadboard.png" alt="Power box" width="40%">
 </p>
 
 ## Files
 
-| File | What it is |
-|---|---|
-| [`box_drok_amplifier.stl`](3d_printing/files/box_drok_amplifier.stl) | Housing for the DROK audio amplifier that drives the two speakers, 115 x 47 x 8 mm |
-| [`box_power_small_sparkfun_breadboard.stl`](3d_printing/files/box_power_small_sparkfun_breadboard.stl) | Housing for a SparkFun Solderable Breadboard Mini. Used for the power distribution breadboard (3, 5 and 12 V); the same box houses the [optogenetics power modulator](../optogenetics_power_modulator/) |
-| [`3d_printing/pictures`](3d_printing/pictures/) | Renders |
+All design files are in [`design/files`](design/files/) and renders in [`design/pictures`](design/pictures/).
 
-Print on a Prusa MK3 in PLA with standard settings.
+| Part | Files | What it is | How we made it |
+|---|---|---|---|
+| Amplifier housing | [`.stl`](design/files/box_drok_amplifier.stl) | Housing for the DROK audio amplifier that drives the two speakers, 115 x 47 x 8 mm | 3D printed, PLA |
+| Power box | [`.stl`](design/files/box_power_small_sparkfun_breadboard.stl) | Housing for a SparkFun Solderable Breadboard Mini. Used for the power distribution breadboard (3, 5 and 12 V); the same box houses the [optogenetics power modulator](../optogenetics_power_modulator/) | 3D printed, PLA |
+
+3D printed parts: Prusa MK3, PLA, standard settings.
 
 ## Bill of materials
 

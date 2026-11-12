@@ -5,8 +5,8 @@ imaging. The headplates are laser cut from titanium; the holders, ramps and imag
 from aluminium (3D printing also works for the holders and ramps).
 
 <p align="center">
-  <img src="cnc/pictures/headplate_2pimaging_holder_big1.png" alt="Imaging headplate holder" width="45%">
-  <img src="cnc/pictures/headplate_behavior_holder_left.png" alt="Behavior headplate holder" width="45%">
+  <img src="design/pictures/headplate_2pimaging_holder_big1.png" alt="Imaging headplate holder" width="45%">
+  <img src="design/pictures/headplate_behavior_holder_left.png" alt="Behavior headplate holder" width="45%">
 </p>
 
 ## At a glance
@@ -33,18 +33,18 @@ from aluminium (3D printing also works for the holders and ramps).
 
 ## Files
 
-| File | What it is | How to make it |
-|---|---|---|
-| [`headplate_behavior.dxf`](cnc/files/headplate_behavior.dxf) | Behavior headplate, 27.5 x 10.4 mm | Laser cut, titanium 0.04 inch (1 mm) |
-| [`headplate_2pimaging.dxf`](cnc/files/headplate_2pimaging.dxf) | Imaging headplate, 27.5 x 23.8 mm | Laser cut, titanium 0.04 inch |
-| [`headplate_2pimaging_cover.dxf`](cnc/files/headplate_2pimaging_cover.dxf) | Imaging cover | Laser cut |
-| [`headplate_behavior_holder_left.stl`](cnc/files/headplate_behavior_holder_left.stl), [`right`](cnc/files/headplate_behavior_holder_right.stl) | Behavior holders | Machined aluminium or 3D printed |
-| [`headplate_behavior_15degreesramp_right.stl`](cnc/files/headplate_behavior_15degreesramp_right.stl) | Behavior ramp | Machined aluminium or 3D printed |
-| [`headplate_2pimaging_holder_big.stl`](cnc/files/headplate_2pimaging_holder_big.stl) | Imaging holder | Machined aluminium or 3D printed |
-| [`headplate_2pimaging_15degreesramp_left.stl`](cnc/files/headplate_2pimaging_15degreesramp_left.stl), [`right`](cnc/files/headplate_2pimaging_15degreesramp_right.stl) | Imaging ramps | Machined aluminium or 3D printed |
-| [`headplate_2pimaging_cone.stl`](cnc/files/headplate_2pimaging_cone.stl) | Imaging cone | Machined aluminium 6061 |
-| `.stl` versions of the headplates and cover | 3D views | |
-| [`cnc/pictures`](cnc/pictures/) | Renders of every part | |
+All design files are in [`design/files`](design/files/) and renders in [`design/pictures`](design/pictures/).
+
+| Part | Files | What it is | How we made it |
+|---|---|---|---|
+| Behavior headplate | [`.dxf`](design/files/headplate_behavior.dxf), [`.stl`](design/files/headplate_behavior.stl) | 27.5 x 10.4 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
+| Imaging headplate | [`.dxf`](design/files/headplate_2pimaging.dxf), [`.stl`](design/files/headplate_2pimaging.stl) | 27.5 x 23.8 mm | Laser cut, grade 5 titanium 0.04 inch (1 mm), SendCutSend |
+| Imaging cover | [`.dxf`](design/files/headplate_2pimaging_cover.dxf), [`.stl`](design/files/headplate_2pimaging_cover.stl) | 17.6 x 15.5 mm | Laser cut, titanium, SendCutSend |
+| Behavior holders, left and right | [`left.stl`](design/files/headplate_behavior_holder_left.stl), [`right.stl`](design/files/headplate_behavior_holder_right.stl) | Clamp the behavior headplate | Machined aluminium (can also be 3D printed) |
+| Behavior ramp, right | [`.stl`](design/files/headplate_behavior_15degreesramp_right.stl) | 15 degree ramp | Machined aluminium (can also be 3D printed) |
+| Imaging holder | [`.stl`](design/files/headplate_2pimaging_holder_big.stl) | U shaped holder | Machined aluminium (can also be 3D printed) |
+| Imaging ramps, left and right | [`left.stl`](design/files/headplate_2pimaging_15degreesramp_left.stl), [`right.stl`](design/files/headplate_2pimaging_15degreesramp_right.stl) | 15 degree ramps | Machined aluminium (can also be 3D printed) |
+| Imaging cone | [`.stl`](design/files/headplate_2pimaging_cone.stl) | Water cone for the objective | Machined aluminium 6061, eMachineShop |
 
 DXF files are in mm.
 
@@ -57,7 +57,7 @@ DXF files are in mm.
 | 1 | Imaging cone | eMachineShop | Aluminium 6061 | 4.50 |
 | 3 | Magnets for the headplate, 1/16 x 1/32 inch | K&J Magnetics | | 0.14 each |
 | 3 | Magnets for the cone, 2 x 0.5 mm | The Magnet Baron | | 0.15 each |
-| 2 | Headplate holders | Machined in house | | |
+| 2 | Headplate holders | Machined, aluminium | | |
 | 1 | Kinematic magnetic base | Newport | BK-3A | 159.64 |
 | 1 | Pedestal post holder | Thorlabs | PH1 | 8.74 |
 | 1 | Optical post | Thorlabs | TR6 | 8.66 |
