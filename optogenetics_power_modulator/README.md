@@ -4,8 +4,9 @@ Small circuit that turns the PWM output of the Teensy into a smooth 0 to 5 V ana
 the SPOUT state machine set the light power on every trial, instead of only switching the light on or off.
 
 <p align="center">
-  <img src="circuit/files/opto_power_mod.png" alt="Optogenetics power modulator circuit" width="55%">
+  <img src="circuit/pictures/opto_power_mod0.png" alt="Optogenetics power modulator, built circuit with BNC output in its 3D printed housing" width="55%">
 </p>
+<p align="center"><em>The built circuit on a SparkFun Solderable Breadboard Mini, with the BNC output, in its 3D printed housing.</em></p>
 
 ## At a glance
 
@@ -17,6 +18,10 @@ the SPOUT state machine set the light power on every trial, instead of only swit
 | Used by | SPOUT1 and SPOUT2 |
 
 ## How it works
+
+<p align="center">
+  <img src="circuit/files/opto_power_mod.png" alt="Optogenetics power modulator circuit diagram" width="55%">
+</p>
 
 1. Teensy pin 9 outputs an 8 bit PWM signal (0 to 3.3 V). The duty cycle is set by the GUI for each trial.
 2. A 10 kOhm resistor and a 4.7 uF capacitor filter the PWM into a DC voltage (time constant 47 ms).

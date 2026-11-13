@@ -10,7 +10,7 @@ The full bill of materials is in [`SPOUT_BOM.xlsx`](SPOUT_BOM.xlsx) and [`SPOUT_
 <p align="center">
   <img src="SPOUT_setup.png" alt="A complete SPOUT rig seen from above" width="80%">
 </p>
-<p align="center"><em>A complete SPOUT rig seen from above.</em></p>
+<p align="center"><em>A SPOUT rig seen from above: head restrained setup (left), motorized manipulator with the spouts (center), electronics with the Teensy breakout board (top), water reservoirs (top right) and the stepper motor driver box (right).</em></p>
 
 ## Devices
 
