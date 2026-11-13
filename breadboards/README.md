@@ -48,7 +48,7 @@ Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
 ## Assembly
 
-1. Screw the round breadboard on the rig breadboard and build the [head restrained setup](../head-restrained_setup/) on it.
+1. Screw the round breadboard on the rig breadboard using a kinematic magnetic base and build the [head restrained setup](../head-restrained_setup/) on it.
 
 ## License
 **CERN-OHL-S-2.0** ([`LICENSE`](../LICENSE)).
