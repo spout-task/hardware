@@ -76,12 +76,17 @@ Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
 ## Assembly
 
-1. Print the adapters, and laser cut the driver box and the drilling templates.
-2. Screw the bottom stage on `micromanipulator_to_breadboard` and mount it on the breadboard with 1/4 20 screws.
-3. Use the drilling templates to mark and drill the holes that mount the stages on each other, giving the X, Y and Z axes.
-4. Mount `micromanipulator_stage2post` on the top carriage and put an optical post with the [spout holder](../spout_holder/) in it.
-5. Wire each motor to its driver as in [`driver_4.png`](schematics/driver_4.png). Motor leads: black A+, green A minus, blue B minus, red B+ (check the label on your motor).
-6. Connect the 24 V supply to VCC and GND of each driver, and mount the three drivers in the laser cut box.
+0. You do not need the adapters nor taking apart the linear track if they have screw holes in them to allow assembling X, Y, and Z axes.
+1. Laser cut the adapters and the driver box and the drilling templates.
+2. 3D print the micromanipulator_to_breadboard, micromanipulator_stage2post, and a water_spout_(bottom or side)_mount.
+3. Open each linear track (4 screws in total), remove the front and bottom plate, and carefully make sure you do not drop bearings.
+4. Use the laser cut adapter (5 or 10 cm, depending on your linear track) to mark drill holes in the bottom plate. Do the same for the front part using adapter template_linear_track_holes-edge.
+5. Drill 4 holes (3 mm) in the bottom plate, two holes in the front plate (3 mm), and (counter)sink the screw head.
+6. Reassemble the linear tracks and mount them using M3 screws to make X, Y, and Z axes.
+7. Screw the bottom linear track (X or Y) on micromanipulator_to_breadboard and mount it on the breadboard with 1/4 20 screws.
+8. Mount micromanipulator_stage2post on the top linear track (Z) and use optical posts (cage rods) and a swivel (mini-post swivel post clamp) to mount the [spout holder](../spout_holder/) in it.
+10. Connect four wires to each stepper motor driver [`driver_4.png`](schematics/driver_4.png) and solder those a connector. Connect the three drivers with a shared positive and negative and solder it to a general connector. Click the three drivers in the driver box, mount the connectors and power connector to the side, and glue the driver box using acrylic cement.
+11. Connect each motor to a connector [`driver_4.png`](schematics/driver_4.png). Motor leads: black A+, green A minus, blue B minus, red B+ (check the label on your motor). Make sure the labels match when you plug it into the driver box.
 
 Photos of the build process will be added.
 
