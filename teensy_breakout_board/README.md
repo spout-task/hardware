@@ -13,7 +13,7 @@ drives the water solenoids, and brings every input and output to a BNC connector
 | | |
 |---|---|
 | Function | Teensy 4.1 carrier with solenoid drivers and BNC inputs and outputs |
-| Design | Pavel Gorelik, HMS Research Instrumentation Core, revision Alpha1b (KiCad 10) |
+| Design | HMS Research Instrumentation Core, revision Alpha1b (KiCad 10) |
 | Fabrication | PCB, Teensy in a socket, 3D printed housing |
 | Approximate cost | 100 USD for the assembled board |
 | Used by | SPOUT1 and SPOUT2 |
