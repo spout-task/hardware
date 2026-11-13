@@ -1,6 +1,6 @@
 # Teensy breakout board
 
-The heart of a SPOUT rig. This board carries the Teensy 4.1 that runs the SPOUT state machine,
+This general breadkout board carries the Teensy 4.1 that runs the SPOUT state machine,
 drives the water solenoids, and brings every input and output to a BNC connector or a header.
 
 <p align="center">
