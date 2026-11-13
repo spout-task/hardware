@@ -50,12 +50,13 @@ Full list: [`SPOUT_BOM.xlsx`](../SPOUT_BOM.xlsx).
 
 ## Assembly
 
-1. Cut the stainless steel tube to length for the spout(s) and deburr the ends.
-2. Press fit the spout(s) into the holder and secure with a little glue.
+1. Solder a wire to each stainless steel tube (spout), which will pull down the current of the dual-lick detector to detect licks. Make sure to solder a banana plug to the negative terminal to connect to the tube and headplate the holds the mouse.
+2. Press fit the stainless steel tubes (spouts) into the holder and secure with a little glue.
 3. Mount the holder on an optical post on the [motorized manipulator](../motorized_manipulator/).
-4. Mount the two solenoids on the dual solenoid holder.
-5. Connect each spout with Tygon tubing to its solenoid, and the solenoid to the 30 ml reservoir syringe through a 3 way valve. The 5 ml syringe on the valve is used to flush the line.
-6. Connect each spout to the [dual lick detector](../dual_lick_detector/) and each solenoid to the [Teensy breakout board](../teensy_breakout_board/).
+4. Mount the two solenoids on the dual solenoid holder with four 4-40 screws.
+5. The solenoid connection scheme: Top connector input from 30 ml reservoir, middle connector output to spout, bottom connector close by using some tubing with a zip tie. Power (left pin facing the solenoid from the connections should go to the left PCB connector on the Teensy breakout board) should go to the Teensy breakout board SLN1 or SLN2.
+6. Use the 3-way valve to connect the 5 ml syringe to one side, the 30 ml syringe to the top side, and the solenoid to the other side. The 30 ml syringe is the reservoir, the 5 ml syringe is used to flush and prepare the tubing with reward, and the 3-way valve is to switch between them.
+7. Connect each spout to the [dual lick detector](../dual_lick_detector/) and each solenoid to the [Teensy breakout board](../teensy_breakout_board/).
 
 Photos of the build process will be added.
 
