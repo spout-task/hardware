@@ -1,6 +1,6 @@
 # Head restrained setup
 
-Headplates and holders that keep the mouse's head still during behavior, optogenetics and two photon
+Headplates and holders that keep the mouse's head still during behavior (with optogenetics) and two photon
 imaging. The headplates are laser cut from titanium; the holders, ramps and imaging cone are machined
 from aluminium (3D printing also works for the holders and ramps).
 
