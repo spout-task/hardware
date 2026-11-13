@@ -63,9 +63,16 @@ component list and the position file from the same menu. Default manufacturing s
 
 ## Fabrication
 
-1. **PCB.** Order the board as described above.
-2. **Teensy.** Solder female headers on the board and male headers on the Teensy 4.1, so the Teensy can be swapped.
-3. **Housing.** Print `box_teensy_breakoutboard.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
+1. Order the board as described above. No components will be soldered on. The SPOUT boards were made by PCBWay.
+2. Solder female headers (24) left and right on the board. If the Teensy came without headers, solder male headers (24 left and right) on the Teensy 4.1, so the Teensy can be swapped.
+3. Solder four BNC connector plugs on the left and right side of the board.
+4. Solder two 361 resistors (360 ohms) on R6 and R7 (for left and right solenoids).
+5. Solder two 114 resistors (110 kOhm) on R9 nad R10 (for left and right solenoids).
+6. Solder two Onsemi mosfets (NCV8406ASTT1G) on T1 and T2 (for left and right solenoids).
+7. Solder two male 2-pin PCB connectors to SLN1 and SLN2 (for left and right solenoids).
+8. Optional: solder female headers to the left (12), right (12), and far right (4) of the Teensy. Use these if you need more Teensy pin access than the 8 BNC connectors.
+9. Print `box_teensy_breakoutboard.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
+10. For additional purposes (buttons, extra solenoid, servo, etc), see "Expansion options" below.
 
 ## Assembly
 
@@ -155,7 +162,7 @@ The board has more on it than SPOUT uses. These parts are free for your own exte
 
 * **Third solenoid driver (SLN3).** Pin 13 has a place for a third driver, not fitted on the SPOUT boards. Fit the MOSFET (T3), the flyback diode (D3) and the two resistors (R8, R11) with the same parts as SLN1 and SLN2 to switch a third valve, or a 5 V light such as the SPOUT2 error light.
 * **Manual flush.** Headers FLUSH1 and FLUSH2 sit across the SLN1 and SLN2 drivers. A push button on a FLUSH header is meant to open that valve without the Teensy, for example to fill or rinse the lines.
-* **Push buttons S1 and S2.** On pins 3 and 2, with pull up resistors. SPOUT uses these pins as sync and speaker outputs, so use the buttons only with firmware that does not.
+* **Push buttons S1 and S2.** On pins 3 and 2, with pull up resistors. SPOUT uses these pins as sync and speaker outputs, but pin map can be changed.
 * **Servo headers SERVO1 and SERVO2.** Signal on pins 6 and 7, powered from VCC. SPOUT uses pins 6 and 7 as TTL outputs.
 * **Potentiometer.** On pin 16 (A2), between 3.3 V and ground, for example to set a parameter by hand.
 * **Qwiic connectors J1 and J6.** I2C on pins 18 (SDA) and 19 (SCL) for Qwiic sensors. SPOUT uses these pins as TTL outputs, and you should check the connector pinout against the schematic before plugging in a Qwiic device.
