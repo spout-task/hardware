@@ -30,6 +30,9 @@ drives the water solenoids, and brings every input and output to a BNC connector
 |---|---|---|---|
 | Housing | [`.stl`](design/files/box_teensy_breakoutboard.stl), [`.step`](design/files/box_teensy_breakoutboard.step) | Housing, 152 x 106 x 20 mm | 3D printed, PLA |
 
+The SPOUT paper used revision Alpha1b (KiCad 10), the version in this folder.
+Newer revisions are developed in the [HMS RIC repository](https://github.com/HMS-RIC/Teensy-Breakout-general-purpose).
+
 ### Pictures
 
 | Picture | What it shows |
@@ -168,5 +171,7 @@ SPOUT does not use the Qwiic, servo, potentiometer, push button or FLUSH connect
 3. Start a session and check the sync pulses on pin 3 with your acquisition system.
 
 ## License and attribution
-Designed by Pavel Gorelik (HMS Research Instrumentation Core) for SPOUT. Released under
-**CERN-OHL-S-2.0** as part of SPOUT ([`LICENSE`](../LICENSE)).
+Designed by Pavel Gorelik of the [HMS Research Instrumentation Core](https://github.com/HMS-RIC), whose
+members are authors of SPOUT, and shared here as part of SPOUT under **CERN-OHL-S-2.0**
+([`LICENSE`](../LICENSE)). Newer revisions are developed in the
+[HMS RIC repository](https://github.com/HMS-RIC/Teensy-Breakout-general-purpose).

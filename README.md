@@ -49,8 +49,9 @@ Photos of the build process will be added.
 All hardware designs in this repository are released under **CERN-OHL-S-2.0** ([`LICENSE`](LICENSE)).
 The dual lick detector and the Teensy breakout board were designed by the
 [HMS Research Instrumentation Core](https://github.com/HMS-RIC), whose members are authors of SPOUT,
-and are shared here as part of SPOUT. Newer revisions of the lick detector are developed in the
-[HMS RIC repository](https://github.com/HMS-RIC/2-Channel-Lick-Detector).
+and are shared here as part of SPOUT. Newer revisions are developed in the HMS RIC repositories for the
+[lick detector](https://github.com/HMS-RIC/2-Channel-Lick-Detector) and the
+[Teensy breakout board](https://github.com/HMS-RIC/Teensy-Breakout-general-purpose).
 
 ## How to cite
 See [`CITATION.cff`](CITATION.cff) and the [project overview](https://github.com/spout-task).
