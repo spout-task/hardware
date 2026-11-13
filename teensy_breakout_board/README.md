@@ -171,7 +171,7 @@ SPOUT does not use the Qwiic, servo, potentiometer, push button or FLUSH connect
 3. Start a session and check the sync pulses on pin 3 with your acquisition system.
 
 ## License and attribution
-Designed by Pavel Gorelik of the [HMS Research Instrumentation Core](https://github.com/HMS-RIC), whose
+Designed and developed by the [HMS Research Instrumentation Core](https://github.com/HMS-RIC), whose
 members are authors of SPOUT, and shared here as part of SPOUT under **CERN-OHL-S-2.0**
 ([`LICENSE`](../LICENSE)). Newer revisions are developed in the
 [HMS RIC repository](https://github.com/HMS-RIC/Teensy-Breakout-general-purpose).
