@@ -5,9 +5,11 @@ imaging. The headplates are laser cut from titanium; the holders, ramps and imag
 from aluminium (3D printing also works for the holders and ramps).
 
 <p align="center">
-  <img src="design/pictures/headplate_2pimaging_holder_big1.png" alt="Imaging headplate holder" width="45%">
-  <img src="design/pictures/headplate_behavior_holder_left.png" alt="Behavior headplate holder" width="45%">
+  <img src="design/pictures/head-restriction_setup_side.png" alt="Head restrained setup, side view" width="32%">
+  <img src="design/pictures/head-restriction_setup_top.png" alt="Head restrained setup, top view" width="32%">
+  <img src="design/pictures/head-restriction_setup_imaging.png" alt="Head restrained setup with the imaging holder" width="32%">
 </p>
+<p align="center"><em>Head restrained setup: side view, top view, and with the imaging holder.</em></p>
 
 ## At a glance
 
@@ -30,6 +32,13 @@ from aluminium (3D printing also works for the holders and ramps).
 | Imaging 15 degree ramps, left and right | Level the head of mice implanted at an angle for lateral imaging, so straight and angled mice train on the same rig |
 | Imaging cone | Sits on the imaging headplate with three magnets and holds water for the objective. Seal with a thin layer of silicone (Picodent Eco sil speed) |
 | Imaging cover | Snaps on magnetically to protect the window between sessions. Add silicone if the mouse removes it |
+
+<p align="center">
+  <img src="design/pictures/headplate_behavior_photo.png" alt="Behavior headplate, titanium" width="32%">
+  <img src="design/pictures/headplate_2pimaging_photo.png" alt="Imaging headplate, titanium, with three magnets" width="25%">
+  <img src="design/pictures/headplate_2pimaging_cone_photo.png" alt="Imaging cone, aluminium, with three magnets" width="25%">
+</p>
+<p align="center"><em>Behavior headplate, imaging headplate with magnets, and imaging cone.</em></p>
 
 ## Files
 

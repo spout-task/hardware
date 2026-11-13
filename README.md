@@ -7,6 +7,11 @@ what to buy, how to make it and how to connect it to SPOUT.
 A complete rig costs about **1,080 USD** (about 1,440 USD including a computer and screen).
 The full bill of materials is in [`SPOUT_BOM.xlsx`](SPOUT_BOM.xlsx) and [`SPOUT_BOM.pdf`](SPOUT_BOM.pdf).
 
+<p align="center">
+  <img src="SPOUT_setup.png" alt="A complete SPOUT rig seen from above" width="80%">
+</p>
+<p align="center"><em>A complete SPOUT rig seen from above.</em></p>
+
 ## Devices
 
 | Group | Device | What it does | How it is made | Folder |

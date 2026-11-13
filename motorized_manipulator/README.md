@@ -5,9 +5,9 @@ front of the mouse. Each stage has its own stepper motor driver and controller, 
 precisely and returned to the same position every session.
 
 <p align="center">
-  <img src="design/pictures/micromanipulator_to_breadboard1.png" alt="Adapter from stage to breadboard" width="40%">
-  <img src="design/pictures/micromanipulator_stage2postHalfInch1.png" alt="Adapter from stage to post" width="40%">
+  <img src="design/pictures/motorized_manipulator.png" alt="Assembled X, Y, Z manipulator with the post adapter" width="55%">
 </p>
+<p align="center"><em>The assembled manipulator: three stacked stages on the 3D printed adapter, with a post in the 3D printed post adapter on the top stage.</em></p>
 
 ## At a glance
 

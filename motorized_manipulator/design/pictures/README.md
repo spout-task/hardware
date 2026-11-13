@@ -1,8 +1,19 @@
 # Motorized manipulator: design pictures
 
-Renders of the 3D printed adapters, the drilling templates and the laser cut driver box. Click a picture to open it at full size.
+A photo of the assembled manipulator and renders of the 3D printed adapters, the drilling templates and the laser cut driver box. Click a picture to open it at full size.
 
 Back to the [Motorized manipulator README](../../README.md).
+
+## Photo
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="motorized_manipulator.png"><img src="motorized_manipulator.png" alt="Assembled X, Y, Z manipulator with the post adapter" width="100%"></a><br><code>motorized_manipulator.png</code><br>Assembled X, Y, Z manipulator with the post adapter</td>
+<td width="50%"></td>
+</tr>
+</table>
+
+## Renders
 
 <table>
 <tr>

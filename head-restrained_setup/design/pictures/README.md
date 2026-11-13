@@ -1,8 +1,27 @@
 # Head restrained setup: design pictures
 
-Renders of the headplates, holders, ramps, cone and cover. Click a picture to open it at full size.
+Photos and renders of the headplates, holders, ramps, cone and cover. Click a picture to open it at full size.
 
 Back to the [Head restrained setup README](../../README.md).
+
+## Photos
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top"><a href="head-restriction_setup_side.png"><img src="head-restriction_setup_side.png" alt="Head restrained setup, side view" width="100%"></a><br><code>head-restriction_setup_side.png</code><br>Head restrained setup, side view</td>
+<td width="50%" align="center" valign="top"><a href="head-restriction_setup_top.png"><img src="head-restriction_setup_top.png" alt="Head restrained setup, top view" width="100%"></a><br><code>head-restriction_setup_top.png</code><br>Head restrained setup, top view</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="head-restriction_setup_imaging.png"><img src="head-restriction_setup_imaging.png" alt="Head restrained setup with the imaging holder" width="100%"></a><br><code>head-restriction_setup_imaging.png</code><br>Head restrained setup with the imaging holder</td>
+<td width="50%" align="center" valign="top"><a href="headplate_behavior_photo.png"><img src="headplate_behavior_photo.png" alt="Behavior headplate, titanium" width="100%"></a><br><code>headplate_behavior_photo.png</code><br>Behavior headplate, titanium</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top"><a href="headplate_2pimaging_photo.png"><img src="headplate_2pimaging_photo.png" alt="Imaging headplate, titanium, with three magnets" width="100%"></a><br><code>headplate_2pimaging_photo.png</code><br>Imaging headplate, titanium, with three magnets</td>
+<td width="50%" align="center" valign="top"><a href="headplate_2pimaging_cone_photo.png"><img src="headplate_2pimaging_cone_photo.png" alt="Imaging cone, aluminium, with three magnets" width="100%"></a><br><code>headplate_2pimaging_cone_photo.png</code><br>Imaging cone, aluminium, with three magnets</td>
+</tr>
+</table>
+
+## Renders
 
 <table>
 <tr>
