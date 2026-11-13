@@ -14,7 +14,7 @@ sub millisecond precision.
 | | |
 |---|---|
 | Function | Detects licks on one or two spouts |
-| Design | Pavel Gorelik, HMS Research Instrumentation Core, revision Alpha1e (KiCad 10) |
+| Design | HMS Research Instrumentation Core, revision Alpha1e (KiCad 10) |
 | Fabrication | PCB with commercial assembly, 3D printed housing |
 | Approximate cost | 100 USD for the assembled board |
 | Used by | SPOUT1 (one channel) and SPOUT2 (two channels) |
