@@ -84,8 +84,11 @@ component list and the position file from the same menu. Default manufacturing s
 
 ## Fabrication
 
-1. Order the assembled board as described above. The SPOUT boards were made and assembled by PCBWay.
-2. Print `box_dual_lick_detector.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
+1. Order the assembled board as described above. All the fine soldering will be done, you only need to solder big components on the PCB. The SPOUT boards were made and assembled by PCBWay.
+2. On both sides of the PCB, solder dual jack BNC connectors in place.
+3. On the top side of the PCB, you will have to solder two multi-turn potentiometers in place.
+4. On the bottom side of the PCB, a DC barrel jack power connector (3V to send TTL to Teensy) and/or micro USB connector (5V if you want to send a TTL to an Arduino), a two-way toggle switch, and a 9V battery casing should be soldered in place.
+5. Print `box_dual_lick_detector.stl` on a Prusa MK3 in PLA with standard settings. Mount the board with 4-40 screws and the housing on the breadboard with 1/4 20 screws.
 
 ## Assembly
 
